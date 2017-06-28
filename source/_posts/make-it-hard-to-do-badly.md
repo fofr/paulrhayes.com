@@ -1,37 +1,55 @@
 title: 'Make it hard to do things badly'
 categories:
   - writing
-date: 2017-03-09
+date: 2017-06-28
 ---
 
-When it's hard to do things badly good things will emerge, whatever good looks like. Accidents, mistakes and failures are bad things that make stuff worse – whether by us or by our users, these things happen, but we learn from them. We stop them from happening and things get better.
+You mean, "make it easy to do well". No.
+Learning from mistakes is easier than learning from success.
+Problems are easier to define.
+Saying "easy to do well" makes success sound easy. It's not. It's hard.
+Making it hard to do things badly means you're more likely to succeed. Not that you will.
 
-"Make it hard to do things badly" is my design principle.
+## Things that make it hard to do stuff badly
 
-## Constraints
+* Do user research
+  It's harder to build things people don't need
 
-Constraints limit what can happen. They reduce the number of possible outcomes. The right constraints eliminate the worst outcomes. Constraints make it harder to do things badly.
+* Do usability testing
+  It's harder to make things people can't use
 
-## Do less
+* Lint your codebase
+  It's harder to make common coding mistakes
 
-Focus. Concentrate on the irreducible core.
-https://www.gov.uk/design-principles#second
+* Use a style guide
+  It's harder to make common writing mistakes
 
-## Be liberal in what you accept
+* Write in plain English
+  It's harder to write words people don’t understand
 
-Be conservative in what you send, be liberal in what you accept.
+* Use design patterns
+  It's harder to create inferior duplicates of designs
 
-* Constraints
-* Examples
-  * Linting
-  * Bold
-  * Style guides
-  *
+* Use a design system
+  It's harder to create patterns that don't fit
 
+* Use components
+  It's harder to make mistakes when re-using patterns
 
+* Apply constraints
+  It's harder to reach a bad outcome when there are fewer outcomes
 
-## You mean, make it easy to do good stuff?
+* Test your codebase
+  It's harder to break things for users
 
-Nope. "What does good look like?" is hard to answer
+* Run test scripts across browsers
+  It's harder to break things for users of different browsers
 
-We l
+* Automate visual regression tests
+  It's harder to inadvertently break how a page looks
+
+* Automate accessibility checks
+  It's harder to make common accessibility mistakes
+
+* Automate colour-contrast checks
+  It's harder to make things difficult to read
