@@ -18,7 +18,7 @@
     "hexo-server": "^0.2.0",
     "jquery": "^3.2.1",
     "jsdom": "^11.0.0",
-    "node-sass": "^4.8.2",
+    "node-sass": "^4.13.1",
     "uglify-js": "^3.0.22"
   }
 }
